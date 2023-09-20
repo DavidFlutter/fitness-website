@@ -1,0 +1,68 @@
+$themeColourMain: rgb(0, 0, 0);
+$themeColourSecondary: rgb(255, 213, 0);
+$textColour:rgb(199, 198, 198);
+
+
+.Trainers{
+    main{
+        max-width: 900px;
+        margin: 0 auto;
+        margin-top: 5rem;
+        padding: 3rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 4rem;
+        .card{
+            padding: 1rem;
+            background-color: $themeColourMain;
+            border-radius: 0 3rem 0 3rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0.5rem;
+            transition: all 0.2s;
+            &:hover{
+                border-radius: 3rem;
+            }
+            img{
+                width: 100%;
+                border-radius: 2rem;
+                margin-bottom: 1rem;
+            }
+            .name{
+                color: white;
+                font-size: 1.4rem;
+            }
+            .job{
+                color: $textColour;
+                font-size: 1rem;
+            }
+            .socials{
+                display: flex;
+                gap: 1rem;
+                margin: 1rem;
+                .tile{
+                    font-size: 3.5rem;
+                    border-radius: 0.3rem;
+                    padding: 0.3rem;
+                    color: $themeColourMain;
+                    background: $themeColourSecondary;
+                    transition: all 0.5s;
+                    cursor: pointer;
+                    &:hover{
+                        color: $themeColourSecondary;
+                        background-color: $themeColourMain;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 485px) {
+    .Trainers{
+        main{
+            grid-template-columns: 1fr;
+        }
+    }
+}

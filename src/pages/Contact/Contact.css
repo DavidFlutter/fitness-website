@@ -1,0 +1,24 @@
+.Contact .contacts {
+  display: flex;
+  justify-content: center;
+  margin: 5rem 0px;
+  gap: 1rem;
+}
+.Contact .contacts .card {
+  background-color: rgb(255, 213, 0);
+  width: 5rem;
+  height: 5rem;
+  display: grid;
+  place-content: center;
+  border-radius: 1rem;
+  cursor: pointer;
+  font-size: 5rem;
+  color: rgb(0, 0, 0);
+  transition: all 0.2s, opacity 0s;
+}
+.Contact .contacts .card:hover {
+  transform: translate(0, -10%);
+}
+.Contact .contacts .card:active {
+  opacity: 0.7;
+}/*# sourceMappingURL=Contact.css.map */

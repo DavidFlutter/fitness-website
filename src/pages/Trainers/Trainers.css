@@ -1,0 +1,59 @@
+.Trainers main {
+  max-width: 900px;
+  margin: 0 auto;
+  margin-top: 5rem;
+  padding: 3rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4rem;
+}
+.Trainers main .card {
+  padding: 1rem;
+  background-color: rgb(0, 0, 0);
+  border-radius: 0 3rem 0 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  transition: all 0.2s;
+}
+.Trainers main .card:hover {
+  border-radius: 3rem;
+}
+.Trainers main .card img {
+  width: 100%;
+  border-radius: 2rem;
+  margin-bottom: 1rem;
+}
+.Trainers main .card .name {
+  color: white;
+  font-size: 1.4rem;
+}
+.Trainers main .card .job {
+  color: rgb(199, 198, 198);
+  font-size: 1rem;
+}
+.Trainers main .card .socials {
+  display: flex;
+  gap: 1rem;
+  margin: 1rem;
+}
+.Trainers main .card .socials .tile {
+  font-size: 3.5rem;
+  border-radius: 0.3rem;
+  padding: 0.3rem;
+  color: rgb(0, 0, 0);
+  background: rgb(255, 213, 0);
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.Trainers main .card .socials .tile:hover {
+  color: rgb(255, 213, 0);
+  background-color: rgb(0, 0, 0);
+}
+
+@media (max-width: 485px) {
+  .Trainers main {
+    grid-template-columns: 1fr;
+  }
+}/*# sourceMappingURL=Trainers.css.map */

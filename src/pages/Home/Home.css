@@ -1,0 +1,490 @@
+.Home {
+  max-width: 900px;
+  margin: 0 auto;
+}
+.Home .MainHeader {
+  padding: 0rem 3rem;
+  margin-top: 6rem;
+  box-sizing: border-box;
+  height: 97vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+.Home .MainHeader .left-side {
+  font-size: 4rem;
+  color: rgb(199, 198, 198);
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 1rem;
+  gap: 3rem;
+}
+.Home .MainHeader .left-side h4 {
+  font-size: 1.5rem;
+  margin-bottom: -3rem;
+  color: black;
+}
+.Home .MainHeader .left-side .big-text {
+  font-size: 4rem;
+  font-weight: 1000;
+  color: white;
+}
+.Home .MainHeader .left-side .desc-text {
+  font-size: 1.5rem;
+}
+.Home .MainHeader .left-side .cta-btn {
+  font-size: 1.6rem;
+  background-color: rgb(255, 213, 0);
+  color: white;
+  font-weight: 600;
+  padding: 1rem 1.5rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 2rem;
+  transition: all 0.2s, opacity 0s;
+}
+.Home .MainHeader .left-side .cta-btn:hover {
+  transform: scale(1.1);
+}
+.Home .MainHeader .left-side .cta-btn:active {
+  opacity: 0.7;
+}
+.Home .MainHeader .right-side {
+  position: relative;
+}
+.Home .MainHeader .right-side img {
+  width: 100%;
+  max-width: 40rem;
+}
+.Home .MainHeader .right-side .circle {
+  background-color: rgb(255, 213, 0);
+  height: 20rem;
+  width: 20rem;
+  border-radius: 50%;
+  filter: blur(5rem);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.Programs {
+  margin-top: 5rem;
+  padding: 0 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.Programs h2 {
+  font-size: 3rem;
+  display: flex;
+  align-items: center;
+  color: rgb(199, 198, 198);
+  gap: 1rem;
+  color: white;
+}
+.Programs h2 span {
+  font-size: 5rem;
+  color: rgb(255, 213, 0);
+}
+.Programs .programs-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+.Programs .programs-list .card {
+  padding: 2rem;
+  background-color: rgb(0, 0, 0);
+  color: rgb(199, 198, 198);
+  border-radius: 3rem 0rem 3rem 0rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 2rem;
+  transition: all 0.2s;
+  cursor: default;
+}
+.Programs .programs-list .card .icon {
+  font-size: 5rem;
+}
+.Programs .programs-list .card h3 {
+  font-size: 2rem;
+  color: white;
+}
+.Programs .programs-list .card .info {
+  font-size: 1.2rem;
+}
+.Programs .programs-list .card .program-btn {
+  border: none;
+  border-radius: 3rem;
+  font-size: 1.4rem;
+  padding: 1rem 1.5rem;
+  background-color: rgb(255, 213, 0);
+  color: white;
+  transition: all 0.2s;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.Programs .programs-list .card .program-btn span {
+  font-size: 3rem;
+}
+.Programs .programs-list .card .program-btn:hover {
+  transform: scale(1.1);
+}
+.Programs .programs-list .card:hover {
+  border-radius: 3rem;
+}
+
+.Values {
+  margin-top: 7rem;
+  padding: 3rem;
+}
+.Values h2 {
+  font-size: 3rem;
+  color: white;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.Values h2 span {
+  font-size: 5rem;
+  color: rgb(255, 213, 0);
+}
+.Values .body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem;
+  align-items: center;
+}
+.Values .body .left-side img {
+  width: 100%;
+  height: 100%;
+  max-height: 40rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 1rem;
+}
+.Values .body .right-side .desc {
+  font-size: 1.2rem;
+  color: rgb(199, 198, 198);
+  margin: 4rem 0rem;
+  margin-top: 1rem;
+}
+.Values .body .right-side .cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  -moz-column-gap: 2rem;
+       column-gap: 2rem;
+  row-gap: 4rem;
+}
+.Values .body .right-side .cards .card {
+  padding: 4rem 2rem;
+  background-color: rgb(0, 0, 0);
+  color: rgb(199, 198, 198);
+  border-radius: 3rem 0rem 3rem 0rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 2rem;
+  transition: all 0.2s;
+  position: relative;
+  cursor: default;
+}
+.Values .body .right-side .cards .card .icon {
+  font-size: 5rem;
+  background-color: black;
+  position: absolute;
+  padding: 1rem;
+  border-radius: 3rem;
+  top: -2rem;
+  left: 3rem;
+}
+.Values .body .right-side .cards .card h3 {
+  font-size: 2rem;
+  color: white;
+}
+.Values .body .right-side .cards .card .info {
+  font-size: 1.2rem;
+}
+.Values .body .right-side .cards .card .program-btn {
+  border: none;
+  border-radius: 3rem;
+  font-size: 1.4rem;
+  padding: 1rem 1.5rem;
+  background-color: rgb(255, 213, 0);
+  color: white;
+  transition: all 0.2s;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.Values .body .right-side .cards .card .program-btn span {
+  font-size: 3rem;
+}
+.Values .body .right-side .cards .card .program-btn:hover {
+  transform: scale(1.1);
+}
+.Values .body .right-side .cards .card:hover {
+  border-radius: 3rem;
+}
+
+.FAQ {
+  padding: 3rem;
+  margin-top: 5rem;
+}
+.FAQ h2 {
+  display: flex;
+  align-items: center;
+  font-size: 3rem;
+  color: white;
+  gap: 1rem;
+  margin-bottom: 3rem;
+}
+.FAQ h2 span {
+  font-size: 5rem;
+  color: rgb(255, 213, 0);
+}
+.FAQ .faqs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: center;
+}
+.FAQ .faqs .card {
+  background-color: rgb(0, 0, 0);
+  box-sizing: border-box;
+  padding: 2rem;
+  border-radius: 2rem;
+  transition: all 0.2s;
+  cursor: default;
+}
+.FAQ .faqs .card .upper {
+  font-size: 2rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.FAQ .faqs .card .upper .toogle-btn {
+  font-size: 2.5rem;
+  background-color: transparent;
+  color: rgb(255, 213, 0);
+  border: none;
+  cursor: pointer;
+}
+.FAQ .faqs .card .answer {
+  margin-top: 2rem;
+  font-size: 1.3rem;
+  color: rgb(199, 198, 198);
+}
+.FAQ .faqs .card:hover {
+  border-radius: 3rem;
+}
+
+.Testimonial {
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Testimonial h2 {
+  font-size: 3rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.Testimonial h2 span {
+  font-size: 5rem;
+  color: rgb(255, 213, 0);
+}
+.Testimonial .card {
+  color: rgb(199, 198, 198);
+  display: flex;
+  flex-direction: column;
+  max-width: 50rem;
+  background-color: rgb(0, 0, 0);
+  margin-top: 6rem;
+  box-sizing: border-box;
+  border-radius: 0 3rem 0 3rem;
+  padding: 4rem 2rem;
+  position: relative;
+  gap: 2rem;
+}
+.Testimonial .card img {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  margin: 0px auto;
+  position: absolute;
+  top: -3rem;
+  left: 0px;
+  right: 0px;
+}
+.Testimonial .card .words {
+  font-size: 1.3rem;
+}
+.Testimonial .card .name {
+  color: white;
+  font-weight: 600;
+  font-size: 1.3rem;
+  margin-bottom: -1.5rem;
+}
+.Testimonial .card .job {
+  font-size: 1.3rem;
+}
+.Testimonial .buttons {
+  margin: 0px auto;
+  margin-top: 2rem;
+  padding: 0px auto;
+  display: flex;
+  gap: 2rem;
+}
+.Testimonial .buttons * {
+  background-color: rgb(255, 213, 0);
+  border: none;
+  font-size: 2rem;
+  padding: 0.2rem;
+  border-radius: 10rem;
+  color: white;
+  cursor: pointer;
+}
+
+.Footer {
+  display: flex;
+  padding: 3rem;
+  margin: 3rem;
+  border-radius: 2rem;
+  margin-top: 5rem;
+  background-color: rgb(0, 0, 0);
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+.Footer img {
+  width: 10rem;
+}
+.Footer .socials {
+  display: flex;
+  gap: 1.5rem;
+}
+.Footer .socials .card {
+  background-color: rgb(255, 213, 0);
+  padding: 0.8rem;
+  border-radius: 0 1rem 0 1rem;
+  cursor: pointer;
+}
+.Footer .socials .card .icon {
+  font-size: 3rem;
+  color: white;
+}
+.Footer .cp {
+  border-top: 1px solid rgb(199, 198, 198);
+  width: 100%;
+  text-align: center;
+}
+.Footer .cp p {
+  color: rgb(199, 198, 198);
+  font-size: 1.2rem;
+  padding-top: 2rem;
+  width: 100%;
+}
+
+@media (max-width: 350px) {
+  .Footer .socials {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .Footer .cp p {
+    font-size: 1.1rem;
+  }
+}
+@media (max-width: 640px) {
+  .Testimonial h2 {
+    font-size: 2rem;
+  }
+  .Testimonial .card .name {
+    font-size: 1.1rem;
+  }
+  .Testimonial .card .job {
+    font-size: 1.1rem;
+  }
+  .Testimonial .card .words {
+    font-size: 1.1rem;
+  }
+}
+@media (max-width: 640px) {
+  .FAQ h2 {
+    font-size: 2rem;
+  }
+  .FAQ .faqs {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 640px) {
+  .Values h2 {
+    font-size: 2rem;
+  }
+  .Values .body {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 350px) {
+  .Values .body {
+    grid-template-columns: 1fr;
+  }
+  .Values .body .right-side .cards {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 640px) {
+  .Programs {
+    margin-top: 30rem;
+  }
+  .Programs .programs-list {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 350px) {
+  .Programs {
+    margin-top: 25rem;
+  }
+  .Programs h2 {
+    font-size: 2rem;
+  }
+  .Programs h2 span {
+    font-size: 3rem;
+  }
+  .Programs .programs-list {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 640px) {
+  .Home .MainHeader {
+    grid-template-columns: 1fr;
+  }
+  .Home .MainHeader .left-side {
+    font-size: 3rem;
+  }
+  .Home .MainHeader .left-side h4 {
+    font-size: 1.3rem;
+  }
+  .Home .MainHeader .left-side .big-text {
+    font-size: 3rem;
+    font-weight: 1000;
+  }
+  .Home .MainHeader .left-side .desc-text {
+    font-size: 1.3rem;
+  }
+  .Home .MainHeader .left-side .cta-btn {
+    font-size: 1.6rem;
+    margin: 0px auto;
+  }
+}/*# sourceMappingURL=Home.css.map */

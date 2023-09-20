@@ -1,0 +1,42 @@
+.About {
+  padding-top: 5rem;
+}
+.About main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 3rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 3rem;
+  -moz-column-gap: 6rem;
+       column-gap: 6rem;
+}
+.About main img {
+  border-radius: 100rem;
+  width: 100%;
+}
+.About main section h3 {
+  font-size: 2.5rem;
+  color: white;
+  margin-bottom: 1.5rem;
+}
+.About main section p {
+  color: rgb(199, 198, 198);
+  width: 80%;
+  font-size: 1.3rem;
+}
+
+@media (max-width: 640px) {
+  .About main {
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr;
+  }
+  .About main .switch {
+    grid-row: 3/4;
+  }
+  .About main img {
+    width: 50%;
+  }
+}/*# sourceMappingURL=About.css.map */

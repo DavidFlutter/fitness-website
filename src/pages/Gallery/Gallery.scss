@@ -1,0 +1,31 @@
+.Gallery{
+    margin-top: 5rem;
+    .images{
+        padding: 3rem;
+        padding-top: 10rem;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+        max-width: 900px;
+        margin: 0 auto;
+        img{
+            height: 100%;
+            border-radius: 1rem;
+        }
+    }
+}
+
+@media (max-width: 640px) {
+    .Gallery{
+        .images{
+            grid-template-columns: repeat(2,1fr);
+        }
+    }
+}
+@media (max-width: 350px) {
+    .Gallery{
+        .images{
+            grid-template-columns: repeat(1,1fr);
+        }
+    }
+}

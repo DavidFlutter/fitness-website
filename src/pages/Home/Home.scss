@@ -1,0 +1,515 @@
+$themeColourMain: rgb(0, 0, 0);
+$themeColourSecondary: rgb(255, 213, 0);
+$textColour:rgb(199, 198, 198);
+
+.Home{
+    max-width: 900px;
+    margin: 0 auto;
+    .MainHeader{
+        padding: 0rem 3rem;
+        margin-top: 6rem;
+        box-sizing: border-box;
+        height: 97vh;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+        gap: 4rem;
+        .left-side{
+            font-size: 4rem;
+            color: $textColour;
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            padding: 1rem;
+            gap: 3rem;
+            h4{
+                font-size: 1.5rem;
+                margin-bottom: -3rem ;
+                color: black;
+            }
+            .big-text{
+                font-size: 4rem;
+                font-weight: 1000;
+                color: white;
+            }
+            .desc-text{
+                font-size: 1.5rem;
+            }
+            .cta-btn{
+                font-size: 1.6rem;
+                background-color: $themeColourSecondary;
+                color: white;
+                font-weight: 600;
+                padding: 1rem 1.5rem;
+                cursor: pointer;
+                border: none;
+                border-radius: 2rem;
+                transition: all 0.2s, opacity 0s;
+            }.cta-btn:hover{
+                transform: scale(1.1);
+            }.cta-btn:active{
+                opacity: 0.7;
+            }
+
+        }
+        .right-side{
+            position: relative;
+            img{
+                width: 100%;
+                max-width: 40rem;
+            }
+            .circle{
+                background-color: $themeColourSecondary;
+                height: 20rem;
+                width: 20rem;
+                border-radius: 50%;
+                filter: blur(5rem);
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+        }
+    }
+}
+
+.Programs{
+    margin-top: 5rem;
+    padding: 0 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    h2{
+        font-size: 3rem;
+        display: flex;
+        align-items: center;
+        color: $textColour;
+        gap: 1rem;
+        color: white;
+        span{
+            font-size: 5rem;
+            color: $themeColourSecondary;
+        }
+    }
+    .programs-list{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 2rem;
+        .card{
+            padding: 2rem;
+            background-color: rgb(0, 0, 0);
+            color: $textColour;
+            border-radius: 3rem 0rem 3rem 0rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            gap: 2rem;
+            transition: all 0.2s;
+            cursor: default;
+            .icon{
+                font-size: 5rem;
+            }
+            h3{
+                font-size: 2rem;
+                color: white;
+            }
+            .info{
+                font-size: 1.2rem;
+            }
+            .program-btn{
+                border: none;
+                border-radius: 3rem;
+                font-size: 1.4rem;
+                padding: 1rem 1.5rem;
+                background-color: $themeColourSecondary;
+                color: white;
+                transition: all 0.2s;
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                span{
+                    font-size: 3rem;
+                }
+            }.program-btn:hover{
+                transform: scale(1.1);
+            }
+        }.card:hover{
+            border-radius: 3rem;
+        }
+    }
+}
+
+
+.Values{
+    margin-top: 7rem;
+    padding: 3rem;
+    h2{
+        font-size: 3rem;
+        color: white;
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+        span{
+            font-size: 5rem;
+            color: $themeColourSecondary;
+        }
+    }
+    .body{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        gap: 5rem;
+        align-items: center;
+        .left-side{
+            img{
+                width: 100%;
+                height: 100%;
+                max-height: 40rem;
+                object-fit: cover;
+                border-radius: 1rem;
+            }
+        }
+        .right-side{
+            .desc{
+                font-size: 1.2rem;
+                color: $textColour;
+                margin: 4rem 0rem;
+                margin-top: 1rem;
+            }
+            .cards{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            column-gap: 2rem;
+            row-gap: 4rem;
+            .card{
+                padding: 4rem 2rem;
+                background-color: rgb(0, 0, 0);
+                color: $textColour;
+                border-radius: 3rem 0rem 3rem 0rem;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                gap: 2rem;
+                transition: all 0.2s;
+                position: relative;
+                cursor: default;
+                .icon{
+                    font-size: 5rem;
+                    background-color: black;
+                    position: absolute;
+                    padding: 1rem;
+                    border-radius: 3rem;
+                    top:-2rem;
+                    left: 3rem
+                }
+                h3{
+                    font-size: 2rem;
+                    color: white;
+                }
+                .info{
+                    font-size: 1.2rem;
+                }
+                .program-btn{
+                    border: none;
+                    border-radius: 3rem;
+                    font-size: 1.4rem;
+                    padding: 1rem 1.5rem;
+                    background-color: $themeColourSecondary;
+                    color: white;
+                    transition: all 0.2s;
+                    cursor: pointer;
+                    display: flex;
+                    align-items: center;
+                    span{
+                        font-size: 3rem;
+                    }
+                }.program-btn:hover{
+                    transform: scale(1.1);
+                }
+            }.card:hover{
+                border-radius: 3rem;
+            }
+        }
+        }
+    }
+}
+
+.FAQ{
+    padding: 3rem;
+    margin-top: 5rem;
+    h2{
+        display: flex;
+        align-items: center;
+        font-size: 3rem;
+        color: white;
+        gap: 1rem;
+        margin-bottom: 3rem;
+        span{
+            font-size: 5rem;
+            color: $themeColourSecondary;
+        }
+    }
+    .faqs{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+        align-items: center;
+        .card{
+            background-color: $themeColourMain;
+            box-sizing: border-box;
+            padding: 2rem;
+            border-radius: 2rem;
+            transition: all 0.2s;
+            cursor: default;
+            .upper{
+                font-size: 2rem;
+                color: white;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                .toogle-btn{
+                    font-size: 2.5rem;
+                    background-color: transparent;
+                    color: $themeColourSecondary;
+                    border: none;
+                    cursor: pointer;
+                }
+            }
+            .answer{
+                margin-top: 2rem;
+                font-size: 1.3rem;
+                color: $textColour;
+            }
+        }.card:hover{
+            border-radius: 3rem;
+        }
+    }
+}
+
+.Testimonial{
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h2{
+        font-size: 3rem;
+        color: white;
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        span{
+            font-size: 5rem;
+            color: $themeColourSecondary;
+        }
+    }
+    .card{
+        color: $textColour;
+        display: flex;
+        flex-direction: column;
+        max-width: 50rem;
+        background-color: $themeColourMain;
+        margin-top: 6rem;
+        box-sizing: border-box;
+        border-radius: 0 3rem 0 3rem;
+        padding: 4rem 2rem;
+        position: relative;
+        gap: 2rem;
+        img{
+            width: 6rem;
+            height: 6rem;
+            border-radius: 50%;
+            margin: 0px auto;
+            position: absolute;
+            top: -3rem;
+            left: 0px;
+            right: 0px;
+        }
+        .words{
+            font-size: 1.3rem;
+        }
+        .name{
+            color: white;
+            font-weight: 600;
+            font-size: 1.3rem;
+            margin-bottom: -1.5rem;
+        }
+        .job{
+            font-size: 1.3rem;
+        }
+    }
+    .buttons{
+        margin: 0px auto;
+        margin-top: 2rem;
+        padding: 0px auto;
+        display: flex;
+        gap: 2rem;
+        *{
+            background-color: $themeColourSecondary;
+            border: none;
+            font-size: 2rem;
+            padding: 0.2rem;
+            border-radius: 10rem;
+            color: white;
+            cursor: pointer;
+        }
+    }
+}
+
+
+.Footer{
+    display: flex;
+    padding: 3rem;
+    margin: 3rem;
+    border-radius: 2rem;
+    margin-top: 5rem;
+    background-color: $themeColourMain;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    img{
+        width: 10rem;
+    }
+    .socials{
+        display: flex;
+        gap: 1.5rem;
+        .card{
+            background-color: $themeColourSecondary;
+            padding: 0.8rem;
+            border-radius: 0 1rem 0 1rem ;
+            cursor: pointer;
+            .icon{
+                font-size: 3rem;
+                color: white;
+            }
+        }
+    }
+    .cp{
+        border-top: 1px solid $textColour;
+        width: 100%;
+        text-align: center;
+        p{
+            color: $textColour;
+            font-size: 1.2rem;
+            padding-top: 2rem;
+            width: 100%;
+        }
+    }
+}
+
+
+@media (max-width:350px) {
+    .Footer{
+        .socials{
+            display: grid;
+            grid-template-columns: 1fr 1fr ;
+        }
+        .cp{
+            p{
+                font-size: 1.1rem;
+            }
+        }
+    }
+}
+@media (max-width: 640px) {
+    .Testimonial{
+        h2{
+            font-size: 2rem;
+        }
+        .card{
+            .name{
+                font-size: 1.1rem;
+            }
+            .job{
+                font-size: 1.1rem;
+            }
+            .words{
+                font-size: 1.1rem;
+            }
+        }
+        
+    }
+}
+
+@media (max-width:640px) {
+    .FAQ{
+        h2{
+            font-size: 2rem;
+        }
+        .faqs{
+            grid-template-columns: 1fr;
+        }
+    }
+}
+
+@media (max-width:640px) {
+    .Values{
+        h2{
+            font-size: 2rem;
+        }
+        .body{
+            grid-template-columns: 1fr;
+        }
+    }
+}
+@media (max-width:350px) {
+    .Values{
+        .body{
+            grid-template-columns: 1fr;
+            .right-side{
+                .cards{
+                    grid-template-columns: 1fr;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 640px) {
+    .Programs{
+        margin-top: 30rem;
+        .programs-list{
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+}
+@media (max-width: 350px) {
+    .Programs{
+        margin-top: 25rem;
+        h2{
+            font-size: 2rem;
+            span{
+                font-size: 3rem;
+            }
+        }
+        .programs-list{
+            grid-template-columns: 1fr;
+        }
+    }
+}
+@media (max-width: 640px) {
+  .Home{
+    .MainHeader{
+      grid-template-columns: 1fr;
+      .left-side{
+        font-size: 3rem;
+        h4{
+            font-size: 1.3rem;
+        }
+        .big-text{
+            font-size: 3rem;
+            font-weight: 1000;
+        }
+        .desc-text{
+            font-size: 1.3rem;
+        }
+        .cta-btn{
+            font-size: 1.6rem;
+            margin: 0px auto;
+        }
+    }
+    }
+  }
+}

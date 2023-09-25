@@ -1,6 +1,5 @@
 import React from 'react';
 import TopHeader from '../../components/TopHeader';
-import headerImage from "../../images/header_bg_1.jpg";
 import image1 from "../../images/about1.jpg";
 import image2 from "../../images/about2.jpg";
 import image3 from "../../images/about3.jpg";
@@ -10,7 +9,7 @@ import "./About.css";
 const About = () => {
   return (
     <div className='About'>
-        <TopHeader title={"About Us"} image={headerImage}>
+        <TopHeader title={"About Us"} image={require("../../images/imageUrls")[`header_bg_1`]}>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, reprehenderit. Non voluptatibus doloribus necessitatibus! Dolorum itaque optio praesentium eum id?
         </TopHeader>
         <main>

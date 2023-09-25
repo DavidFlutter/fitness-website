@@ -1,13 +1,12 @@
 import React from 'react'
 import "./Plans.css";
 import TopHeader from "../../components/TopHeader";
-import headerImage from "../../images/header_bg_4.jpg";
 import { plans } from '../../data';
 
 const Plans = () => {
   return (
     <div className='Plans'>
-        <TopHeader title={"Our Plans"} image={headerImage}></TopHeader>
+        <TopHeader title={"Our Plans"} image={require("../../images/imageUrls")[`header_bg_4`]}></TopHeader>
         <main>
           {plans.map(plan => (
             <div key={plan.id} className="card">

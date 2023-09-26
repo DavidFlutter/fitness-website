@@ -7,7 +7,7 @@ import { AiFillInstagram, AiFillYoutube} from "react-icons/ai";
 export const links = [
     {
         name: "Home",
-        path: '/'
+        path: '/fitness-website'
     },
     {
         name: "About",

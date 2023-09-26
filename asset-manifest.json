@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/david-haastrup-portfolio-one/static/css/main.5949a6ab.css",
-    "main.js": "/david-haastrup-portfolio-one/static/js/main.39834462.js",
-    "static/media/main_header.png": "/david-haastrup-portfolio-one/static/media/main_header.cfdd71eb8ee4127d40dd.png",
-    "static/media/about2.jpg": "/david-haastrup-portfolio-one/static/media/about2.2c97a145dfdda53737eb.jpg",
-    "static/media/about3.jpg": "/david-haastrup-portfolio-one/static/media/about3.c815eef1002b93787686.jpg",
-    "static/media/values.jpg": "/david-haastrup-portfolio-one/static/media/values.3e8ffba748edd5f87110.jpg",
-    "static/media/about1.jpg": "/david-haastrup-portfolio-one/static/media/about1.acf197b2b5fd7c2a452c.jpg",
-    "index.html": "/david-haastrup-portfolio-one/index.html",
-    "main.5949a6ab.css.map": "/david-haastrup-portfolio-one/static/css/main.5949a6ab.css.map",
-    "main.39834462.js.map": "/david-haastrup-portfolio-one/static/js/main.39834462.js.map"
+    "main.css": "/fitness-website/static/css/main.5949a6ab.css",
+    "main.js": "/fitness-website/static/js/main.c50b1b61.js",
+    "static/media/main_header.png": "/fitness-website/static/media/main_header.cfdd71eb8ee4127d40dd.png",
+    "static/media/about2.jpg": "/fitness-website/static/media/about2.2c97a145dfdda53737eb.jpg",
+    "static/media/about3.jpg": "/fitness-website/static/media/about3.c815eef1002b93787686.jpg",
+    "static/media/values.jpg": "/fitness-website/static/media/values.3e8ffba748edd5f87110.jpg",
+    "static/media/about1.jpg": "/fitness-website/static/media/about1.acf197b2b5fd7c2a452c.jpg",
+    "index.html": "/fitness-website/index.html",
+    "main.5949a6ab.css.map": "/fitness-website/static/css/main.5949a6ab.css.map",
+    "main.c50b1b61.js.map": "/fitness-website/static/js/main.c50b1b61.js.map"
   },
   "entrypoints": [
     "static/css/main.5949a6ab.css",
-    "static/js/main.39834462.js"
+    "static/js/main.c50b1b61.js"
   ]
 }

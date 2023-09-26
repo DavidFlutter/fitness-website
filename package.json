@@ -1,6 +1,6 @@
 {
-  "homepage": "https://DavidFlutter.github.io/david-haastrup-portfolio-one",
-  "name": "app",
+  "homepage": "https://DavidFlutter.github.io/fitness-website",
+  "name": "fitness-website",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
